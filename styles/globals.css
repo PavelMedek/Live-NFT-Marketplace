@@ -70,6 +70,14 @@ a {
   background: var(--icons-color);
   width: 0.5rem;
 }
+
+input::placeholder{
+  color: var(--icons-color);
+}
+
+textarea::placeholder{
+  color: var(--icons-color);
+}
 /* @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
